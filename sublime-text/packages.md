@@ -1,0 +1,7 @@
+- Git
+- GitGutter
+- DocBlockr
+- Pretty JSON
+- Rust
+- RustAutocomplete
+- Theme Soda
