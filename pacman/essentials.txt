@@ -1,0 +1,7 @@
+yaourt
+zsh
+openssh
+ruby
+ruby-docs
+git
+tig
