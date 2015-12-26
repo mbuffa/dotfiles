@@ -74,5 +74,6 @@ source $ZSH/oh-my-zsh.sh
 # export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$HOME/.bin:$PATH"
+export RUST_SRC_PATH="/usr/src/rust/src"
 
 export EDITOR="subl --wait"

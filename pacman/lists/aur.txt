@@ -1,2 +1,4 @@
 oh-my-zsh-git
 sublime-text-dev
+rust-src
+rust-racer

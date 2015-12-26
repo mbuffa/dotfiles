@@ -3,5 +3,6 @@ zsh
 openssh
 ruby
 ruby-docs
+rust
 git
 tig
