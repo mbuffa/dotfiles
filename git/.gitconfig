@@ -7,6 +7,7 @@
     br = branch
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     pp = stash pop
+    ski = stash --keep-index
     pr = pull --rebase
     cia = commit --amend
     chuck-norris = push -f
