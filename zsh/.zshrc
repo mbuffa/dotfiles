@@ -70,8 +70,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
 # Only on OS X.
 # export PATH="$PATH:$HOME/.rvm/bin"
+
+# Only on Arch Linux
+# export PATH="$PATH:$HOME/.gem/ruby/2.2.0/bin"
 
 export PATH="$HOME/.bin:$PATH"
 export RUST_SRC_PATH="/usr/src/rust/src"
