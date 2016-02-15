@@ -9,9 +9,10 @@
     pp = stash pop
     ski = stash --keep-index
     pr = pull --rebase
+    rb = "!f() { git fetch -p && git rebase origin/`git rev-parse --abbrev-ref HEAD`; }; f"
     cia = commit --amend
-    chuck-norris = push -f
     dm = diff master
+    chuck-norris = push -f
 [user]
     email = replace-this
     name = Maxime Buffa
