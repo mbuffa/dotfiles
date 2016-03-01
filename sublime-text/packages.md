@@ -1,7 +1,8 @@
 - Git
 - GitGutter
+- CTags
 - DocBlockr
 - Pretty JSON
 - Rust
 - RustAutocomplete
-- Theme Soda
+- Numix Theme
