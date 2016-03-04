@@ -3,6 +3,8 @@
 - CTags
 - DocBlockr
 - Pretty JSON
+- SidebarEnhancements
+- AdvancedNewFile
 - Rust
 - RustAutocomplete
 - Numix Theme
