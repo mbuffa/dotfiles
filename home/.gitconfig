@@ -14,10 +14,10 @@
     dm = diff master
     chuck-norris = push -f
 [user]
-    email = replace-this
+    email = mbuffa@gmail.com
     name = Maxime Buffa
 [core]
-    editor = subl --wait
+    editor = subl3 --wait
 [push]
     default = simple
 

@@ -2,7 +2,7 @@
 # OS X:
 # export ZSH=/Users/minkihn/.oh-my-zsh
 # Arch Linux:
-# export ZSH=/usr/share/oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -10,24 +10,8 @@
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+# Only on Arch Linux.
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -75,10 +59,14 @@ source $ZSH/oh-my-zsh.sh
 # Only on OS X.
 # export PATH="$PATH:$HOME/.rvm/bin"
 
-# Only on Arch Linux
-# export PATH="$PATH:$HOME/.gem/ruby/2.2.0/bin"
+# Only on Arch Linux.
+export PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
 
 export PATH="$HOME/.bin:$PATH"
 export RUST_SRC_PATH="/usr/src/rust/src"
 
-export EDITOR="subl --wait"
+# Only on OS X.
+# export EDITOR="subl --wait"
+
+# Only on Arch Linux.
+export EDITOR="subl3 --wait"
