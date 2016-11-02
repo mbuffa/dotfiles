@@ -1,5 +1,8 @@
 - Git
 - GitGutter
+- SublimeLinter
+- SublimeLinter-ruby
+- SublimeLinter-rubocop
 - CTags
 - DocBlockr
 - Pretty JSON
