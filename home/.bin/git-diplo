@@ -1,2 +1,3 @@
 #!/bin/sh
+## Open all in-conflict files.
 $EDITOR $(git diff --name-only --diff-filter=U)
