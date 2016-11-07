@@ -1,7 +1,4 @@
 # Path to your oh-my-zsh installation.
-############### OS X ###############
-# export ZSH=/Users/minkihn/.oh-my-zsh
-############### ARCH ###############
 export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load.
@@ -10,7 +7,6 @@ export ZSH=/usr/share/oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-############### ARCH ###############
 DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to enable command auto-correction.
@@ -52,13 +48,8 @@ plugins=(git)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-############### OS X ###############
-# export PATH="$PATH:$HOME/.rvm/bin"
-# export EDITOR="subl --wait"
-
-############### ARCH ###############
-export VISUAL="subl3 --wait"
-export EDITOR="subl3 --wait"
+export VISUAL="subl3 --wait --new-window"
+export EDITOR="subl3 --wait --new-window"
 eval "$(rbenv init -)"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
@@ -66,10 +57,8 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-############### RUST ###############
 export RUST_SRC_PATH="/home/minkihn/Code/rust-lang/rust/src"
 
-############### USER ###############
 export PATH="$HOME/.bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
