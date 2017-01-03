@@ -48,7 +48,6 @@ plugins=(git)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:$HOME/.rvm/bin"
 export EDITOR="subl --wait --new-window"
 export VISUAL="subl --wait --new-window"
 
@@ -60,3 +59,5 @@ fi
 export PATH="$HOME/.bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
+
+eval "$(rbenv init -)"
