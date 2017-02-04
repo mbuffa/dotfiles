@@ -1,0 +1,23 @@
+{
+  "installed_packages":
+  [
+    "AdvancedNewFile",
+    "CTags",
+    "DocBlockr",
+    "Git",
+    "GitGutter",
+    "Markdown Preview",
+    "Numix Theme",
+    "Package Control",
+    "RSpec",
+    "Ruby on Rails snippets",
+    "Rust Enhanced",
+    "RustAutoComplete",
+    "Sass",
+    "SideBarEnhancements",
+    "SublimeLinter",
+    "SublimeLinter-annotations",
+    "SublimeLinter-rubocop",
+    "SublimeLinter-ruby"
+  ]
+}
