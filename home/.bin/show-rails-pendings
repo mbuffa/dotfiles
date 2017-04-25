@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Open all your pending Rails migrations into your text editor.
+# It's not optimal but should work with gnu and bsd tools.
+# Author: Maxime Buffa <mbuffa@gmail.com>
+
+INPUT=$(rake db:migrate:status|grep -E '^  down    (\d{14})'|cut -c 11-24)
+VERSIONS=()
+
+for p in ${INPUT}
+do
+  VERSIONS+=(`ls "db/migrate/${p}"*`)
+done
+$EDITOR ${VERSIONS[@]}
