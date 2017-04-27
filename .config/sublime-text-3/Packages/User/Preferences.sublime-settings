@@ -15,7 +15,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Twilight (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
 	"detect_indentation": false,
@@ -45,18 +45,23 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
 		".hg"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Scheme",
+		"SublimeLinter-shellcheck",
 		"Vintage"
 	],
 	"indent_subsequent_lines": true,

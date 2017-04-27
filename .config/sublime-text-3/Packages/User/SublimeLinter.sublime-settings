@@ -22,6 +22,22 @@
                     "@todo"
                 ]
             },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "esversion:": 5,
+                "excludes": []
+            },
+            "pylint": {
+                "@disable": false,
+                "args": [],
+                "disable": "",
+                "enable": "",
+                "excludes": [],
+                "paths": [],
+                "rcfile": "",
+                "show-codes": false
+            },
             "rubocop": {
                 "@disable": false,
                 "args": [],

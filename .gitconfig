@@ -14,6 +14,7 @@
     cia = commit --amend
     ski = stash --keep-index
     chuck-norris = push -f
+    fp = fetch -p
 [user]
     email = mbuffa@gmail.com
     name = Maxime Buffa
