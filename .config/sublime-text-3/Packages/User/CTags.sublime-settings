@@ -1,6 +1,0 @@
-{
-    "command": "ruby-ctags",
-    "opts": [
-      "--exclude=node_modules"
-    ]
-}

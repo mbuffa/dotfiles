@@ -19,7 +19,7 @@
     email = mbuffa@gmail.com
     name = Maxime Buffa
 [core]
-    editor = subl --wait --new-window
+    editor = nano
 [push]
     default = simple
 
