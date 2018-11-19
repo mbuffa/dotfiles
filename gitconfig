@@ -1,20 +1,15 @@
 [color]
     ui = true
 [alias]
-    ci = commit
-    co = checkout
-    st = status
-    br = branch
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    dm = diff master
-    pp = stash pop
-    pr = pull --rebase
-    # Rebase on associated remote branch.
-    rb = "!f() { git fetch && git rebase origin/`git rev-parse --abbrev-ref HEAD`; }; f"
-    cia = commit --amend
-    ski = stash --keep-index
     chuck-norris = push -f
+    cia = commit --amend
+    dm = diff master
     fp = fetch -p
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    pr = pull --rebase
+    sa = stash apply
+    ski = stash --keep-index
+    sp = stash pop
 [user]
     email = mbuffa@gmail.com
     name = Maxime Buffa
