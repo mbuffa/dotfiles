@@ -1,0 +1,2 @@
+# Disable mouse acceleration, mitigate cursor jumps when zooming up.
+ defaults write .GlobalPreferences com.apple.mouse.scaling -1
