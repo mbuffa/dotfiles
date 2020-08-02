@@ -1,0 +1,30 @@
+[submodule "repos/tokei"]
+	path = repos/tokei
+	url = git@github.com:XAMPPRocky/tokei.git
+[submodule "repos/ytop"]
+	path = repos/ytop
+	url = git@github.com:cjbassi/ytop.git
+[submodule "repos/tealdeer"]
+	path = repos/tealdeer
+	url = git@github.com:dbrgn/tealdeer.git
+[submodule "repos/hyperfine"]
+	path = repos/hyperfine
+	url = git@github.com:sharkdp/hyperfine.git
+[submodule "repos/ripgrep"]
+	path = repos/ripgrep
+	url = git@github.com:BurntSushi/ripgrep.git
+[submodule "repos/dust"]
+	path = repos/dust
+	url = git@github.com:bootandy/dust.git
+[submodule "repos/procs"]
+	path = repos/procs
+	url = git@github.com:dalance/procs.git
+[submodule "repos/fd"]
+	path = repos/fd
+	url = git@github.com:sharkdp/fd.git
+[submodule "repos/exa"]
+	path = repos/exa
+	url = git@github.com:ogham/exa.git
+[submodule "repos/bat"]
+	path = repos/bat
+	url = git@github.com:sharkdp/bat.git
