@@ -1,7 +1,6 @@
 [color]
     ui = true
 [alias]
-    chuck-norris = push -f
     cia = commit --amend
     dm = diff master
     fp = fetch -p
@@ -11,10 +10,8 @@
     ski = stash --keep-index
     sp = stash pop
 [user]
-    email = mbuffa@gmail.com
+    email = mbuffa@users.noreply.github.com
     name = Maxime Buffa
 [core]
     editor = nano
-[push]
-    default = simple
 
